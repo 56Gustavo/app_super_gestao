@@ -1,11 +1,11 @@
 @extends('site.layouts.basico')
 
-@section('titulo', 'Contato')
+@section('titulo', '')
 
 @section('conteudo')
     <div class="conteudo-pagina">
         <div class="titulo-pagina">
-            <h1>Entre em contato conosco</h1>
+            <h1>Fornecedores</h1>
         </div>
 
         <div class="informacao-pagina">

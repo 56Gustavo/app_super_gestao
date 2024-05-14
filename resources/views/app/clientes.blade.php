@@ -1,20 +1,21 @@
-@extends('site.layouts.basico')
+@extends('site.layouts.basico') 
 
-@section('titulo', 'Contato')
+@section('titulo', 'Clientes')
 
 @section('conteudo')
     <div class="conteudo-pagina">
         <div class="titulo-pagina">
-            <h1>Entre em contato conosco</h1>
+            <h1>Clientes</h1>
         </div>
 
         <div class="informacao-pagina">
-            <div class="contato-principal">
-                @component('site.layouts._components.form_contato', ['classe' => 'borda-preta'])
-                <p>A nossa equipe analisará a sua mensagem e retornaremos o mais brevemente possível</p>
-                <p>Nosso tempo médio de resposta é de 48 horas</p>
-                @endcomponent
+            <div class="agradecimento-clientes">
+                <h2>Agradecimento aos Nossos Clientes</h2>
+                <p>A equipe da nossa empresa gostaria de expressar nossa sincera gratidão a todos os nossos clientes. Obrigado por confiar em nossos produtos/serviços e por fazer parte da nossa jornada. Estamos comprometidos em fornecer continuamente o melhor atendimento e qualidade em tudo o que fazemos.</p>
+                <p>Se você não é nosso cliente ainda, estamos ansiosos para recebê-lo em nossa família de clientes satisfeitos. Entre em contato conosco para começar sua jornada conosco!</p>
             </div>
+
+
         </div>
     </div>
 
